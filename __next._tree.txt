@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/d087a3df83391e39.css","style"]
-:HL["/_next/static/media/14e23f9b59180572-s.p.9c448f3c.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/e4505858a30c79c2-s.p.0f58a291.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/e557826f452dbd06-s.p.0dabfe84.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"haCHPyeKNrty_LcBvgKhD","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/Hinh-Anh-Cua-THIEN-CHUA-Trong-Sach-GIOP/_next/static/chunks/d087a3df83391e39.css","style"]
+:HL["/Hinh-Anh-Cua-THIEN-CHUA-Trong-Sach-GIOP/_next/static/media/14e23f9b59180572-s.p.9c448f3c.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Hinh-Anh-Cua-THIEN-CHUA-Trong-Sach-GIOP/_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Hinh-Anh-Cua-THIEN-CHUA-Trong-Sach-GIOP/_next/static/media/e4505858a30c79c2-s.p.0f58a291.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Hinh-Anh-Cua-THIEN-CHUA-Trong-Sach-GIOP/_next/static/media/e557826f452dbd06-s.p.0dabfe84.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"eXoN7cmC8vX0SlxSuox3m","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
