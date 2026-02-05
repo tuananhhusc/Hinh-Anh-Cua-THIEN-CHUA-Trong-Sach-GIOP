@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-secondary: var(--secondary);
+}
+
+:root {
+  --background: #F9F7F1;
+  /* Parchment */
+  --foreground: #240046;
+  /* Deep Violet */
+  --accent: #C5A059;
+  /* Antique Gold */
+  --accent-light: #E5C079;
+  --secondary: #121212;
+  /* Obsidian */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    /* Obsidian */
+    --foreground: #F9F7F1;
+    /* Parchment */
+    --accent: #C5A059;
+    --secondary: #F9F7F1;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-body);
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+.drop-cap {
+  float: left;
+  font-size: 3.5rem;
+  line-height: 0.8;
+  padding-right: 0.5rem;
+  padding-top: 0.1rem;
+  font-family: var(--font-heading);
+  color: var(--accent);
+}
+
+.academic-quote {
+  border-left: 2px solid var(--accent);
+  padding-left: 1.5rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+  color: var(--foreground);
+  opacity: 0.9;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+/* Mobile Drop Cap adjustment */
+@media (max-width: 640px) {
+  .drop-cap {
+    font-size: 2.5rem;
+    padding-right: 0.35rem;
+    padding-top: 0;
+  }
+}
